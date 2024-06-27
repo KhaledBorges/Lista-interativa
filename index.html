@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Lista interativa
+    </header>
+    <section>
+        <div class="containerPrincipais">
+            <p class="coloqueSeuNome">Coloque aqui qualquer palavra (ou combinação de letras/números) e veja a lista aumentando!</p>
+            <div class="containerInput">
+                <p class="insiraAquiText">Insira aqui:</p><input type="text" class="palavraInput" maxlength="20">
+                <button type="button" class="botao" id="botaoInserir" onclick="inserir()">Inserir</button>
+                <button type="button" class="botao" id="botaoRetirar" onclick="retirar()">Retirar</button>
+            </div>
+        </div>
+        <div class="listaContainer">
+            <p>Lista:</p>
+            <textarea name="" class="palavrasEscritas" ></textarea>
+        </div>
+    </section>
+    <footer>
+        Feito pelo Khaled!
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
